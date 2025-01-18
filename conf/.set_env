@@ -1,0 +1,6 @@
+SCRIPT_DIR=$(dirname "$(realpath "${BASH_SOURCE[0]}")")
+PROJECT_HOME_DIR=$(realpath "$SCRIPT_DIR/../")
+
+echo "Adding $PROJECT_HOME_DIR to PYTHONPATH"
+
+export PYTHONPATH="$PYTHONPATH
